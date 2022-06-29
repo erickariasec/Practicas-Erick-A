@@ -1,9 +1,12 @@
 # Practicas Preprofesionales
 ## Proyecto: Consumo a una API => Landing Page => Vanilla JS
-- Postman
-- JavaScript
-- HTML, CSS-Grid-Flex
-- Responsive
+<h3 align="center">TOOLS</h3>
+<p align="center">
+  <img src="https://www.offidocs.com/imageswebp/logohtmlhtml5.jpg.webp" alt="logo html" width=150px>
+  <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png" alt="logo postman" width=150px>
+  <img src="https://cdn.buttercms.com/XTreNGoARXiU0di1Nvv1" alt="logo javascript" width=150px height="auto" style="border-radius:50%">
+  <img src="https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png" width=150px>
+</p>
 
 ## Investigación
 
