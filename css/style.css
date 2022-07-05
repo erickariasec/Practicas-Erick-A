@@ -7,6 +7,7 @@
 
     /* Background colors */
     --promo-header-background-color: #000;
+    --logo-content-background-color: #fff;
 
     /* Font families */
     --roboto-font: 'Roboto', sans-serif;
@@ -51,6 +52,7 @@ body {
     height: 90px;
     padding: 10px;
     border-bottom: 1px solid var(--separator-color);
+    background-color: var(--logo-content-background-color);
     display: flex;
     justify-content: center;
     align-items: center;
