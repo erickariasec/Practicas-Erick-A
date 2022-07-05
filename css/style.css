@@ -27,3 +27,18 @@ body {
     align-items: center;
 }
 
+.logo-content {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-content .logo-rame {
+    height: 100%;
+}
