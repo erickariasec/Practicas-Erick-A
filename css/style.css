@@ -108,6 +108,7 @@ body {
 
 .main .cards article .product-content {
     height: 20%;
+    text-align: center;
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
