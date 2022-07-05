@@ -27,7 +27,6 @@ html {
 
 body {
     width: 100vw;
-    height: 100vh;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -63,7 +62,6 @@ body {
 
 .main {
     width: 95vw;
-    height: 100%;
     padding: 20px;
     margin-top: 40px;
     border: 1px solid #000;
@@ -74,9 +72,12 @@ body {
     height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 300px);
+    grid-template-rows: repeat(4, 300px);
     grid-template-areas: 
-        "card-1 card-2 card-3";
+        "card-1 card-2 card-3"
+        "card-4 card-5 card-6"
+        "card-7 card-8 card-9"
+        "card-10 card-11 card-12";
     gap: 20px;
 }
 
@@ -94,4 +95,40 @@ body {
 
 .main .cards .card-3 {
     grid-area: card-3;
+}
+
+.main .cards .card-4 {
+    grid-area: card-4;
+}
+
+.main .cards .card-5 {
+    grid-area: card-5;
+}
+
+.main .cards .card-6 {
+    grid-area: card-6;
+}
+
+.main .cards .card-7 {
+    grid-area: card-7;
+}
+
+.main .cards .card-8 {
+    grid-area: card-8;
+}
+
+.main .cards .card-9 {
+    grid-area: card-9;
+}
+
+.main .cards .card-10 {
+    grid-area: card-10;
+}
+
+.main .cards .card-11 {
+    grid-area: card-11;
+}
+
+.main .cards .card-12 {
+    grid-area: card-12;
 }
