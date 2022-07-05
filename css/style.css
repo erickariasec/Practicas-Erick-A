@@ -67,6 +67,7 @@ body {
     padding: 20px;
     margin-top: 40px;
     border: 1px solid #000;
+    border-radius: 15px;
 }
 
 .main .cards {
@@ -74,7 +75,7 @@ body {
     height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 300px);
+    grid-template-rows: repeat(4, 500px);
     grid-template-areas: 
         "card-1 card-2 card-3"
         "card-4 card-5 card-6"
@@ -84,7 +85,35 @@ body {
 }
 
 .main .cards article {
-    background-color: red;
+    overflow: hidden;
+}
+
+.main .cards article:hover {
+    border: 1px solid var(--black-color-text);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.main .cards article .product-image {
+    width: 100%;
+    height: 80%;
+}
+
+.main .cards article .product-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.main .cards article .product-content {
+    height: 20%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 .main .cards .card-1 {
