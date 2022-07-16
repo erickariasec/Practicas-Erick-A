@@ -74,3 +74,4 @@ let totalProjects = 1
 
 ### API - [Fake Store API](https://fakestoreapi.com/)
 
+
