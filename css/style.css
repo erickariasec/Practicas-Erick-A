@@ -122,6 +122,11 @@ body {
     gap: 10px;
 }
 
+.main .cards article .product-content .description p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
 .main .cards article .product-content .price h3 {
     font-family: var(--mukta-font);
     font-size: 2.3rem;
