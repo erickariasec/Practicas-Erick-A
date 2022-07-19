@@ -1,0 +1,23 @@
+{
+  "name": "practicas-erick-a",
+  "version": "1.0.0",
+  "description": "<h3 align=\"center\">TOOLS</h3>\r <p align=\"center\">\r   <img src=\"https://www.offidocs.com/imageswebp/logohtmlhtml5.jpg.webp\" alt=\"logo html\" width=150px>\r   <img src=\"https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png\" alt=\"logo postman\" width=150px>\r   <img src=\"https://cdn.buttercms.com/XTreNGoARXiU0di1Nvv1\" alt=\"logo javascript\" width=150px height=\"auto\" style=\"border-radius:50%\">\r   <img src=\"https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png\" width=150px>\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickariasec/Practicas-Erick-A.git"
+  },
+  "keywords": [],
+  "author": "Erick Arias <erickarias1999@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erickariasec/Practicas-Erick-A/issues"
+  },
+  "homepage": "https://github.com/erickariasec/Practicas-Erick-A#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.9"
+  }
+}
