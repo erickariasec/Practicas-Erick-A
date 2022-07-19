@@ -7,7 +7,7 @@
 
     /* Background colors */
     --promo-header-background-color: #000;
-    --logo-content-background-color: #fff;
+    --logo-content-background-color: rgba(255, 255, 255, 0.973);
 
     /* Font families */
     --roboto-font: 'Roboto', sans-serif;
