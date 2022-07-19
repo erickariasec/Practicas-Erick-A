@@ -98,10 +98,10 @@ body {
 .main {
     width: 95vw;
     max-width: 1100px;
-    padding: 20px;
+    padding: 25px;
     margin: 40px 0;
-    border: 1px solid #000;
-    border-radius: 15px;
+    /* border: 1px solid #000;
+    border-radius: 15px; */
 }
 
 .main .cards {
