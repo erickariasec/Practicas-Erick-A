@@ -26,6 +26,10 @@ async function asyncGetProducts() {
         const sortResults = await fetchProducts(`${API_products}?sort=desc`);
         console.log(sortResults);
 
+        // ! GET ALL CATEGORIES
+        const allCategories = await fetchProducts(`${API_products}/categories`);
+        console.log(allCategories);
+
     } catch (err) {
         console.error(err);
     }
