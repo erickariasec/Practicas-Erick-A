@@ -30,6 +30,10 @@ async function asyncGetProducts() {
         const allCategories = await fetchProducts(`${API_products}/categories`);
         console.log(allCategories);
 
+        // ! GET PRODUCTS IN A SPECIFIC CATEGORY (electronics, jewelry, men\'s clothing, women's clothing)
+        const productsSpecificCategory = await fetchProducts(`${API_products}/category/jewelery`);
+        console.log(productsSpecificCategory);
+
     } catch (err) {
         console.error(err);
     }
