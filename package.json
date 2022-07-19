@@ -19,5 +19,6 @@
   "homepage": "https://github.com/erickariasec/Practicas-Erick-A#readme",
   "dependencies": {
     "node-fetch": "^3.2.9"
-  }
+  },
+  "type": "module"
 }
