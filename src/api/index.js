@@ -21,6 +21,11 @@ async function asyncGetProducts() {
         const limitProductResultsTo5 = await fetchProducts(`${API_products}?limit=5`);
         console.log(limitProductResultsTo5);
 
+        // ! SORT RESULTS (DESCENDING MODE)
+        // * Default value is ascending
+        const sortResults = await fetchProducts(`${API_products}?sort=desc`);
+        console.log(sortResults);
+
     } catch (err) {
         console.error(err);
     }
