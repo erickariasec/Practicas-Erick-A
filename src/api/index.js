@@ -16,7 +16,11 @@ async function asyncGetProducts() {
         // ! GET A SINGLE PRODUCT
         const product1 = await fetchProducts(`${API_products}/1`);
         console.log(product1);
-    
+        
+        // ! LIMIT RESULTS
+        const limitProductResultsTo5 = await fetchProducts(`${API_products}?limit=5`);
+        console.log(limitProductResultsTo5);
+
     } catch (err) {
         console.error(err);
     }
