@@ -68,7 +68,9 @@ A continuación algunas características importantes:
   - Forman parte de un bloque, normalmente son los botones, textos, imágenes etc.
   
 - #### Modificadores:
-  - Se usan para establecer estilos diferentes a un mismo bloque o elemento.
+  - Se usan para establecer estilos diferentes a un mismo bloque o elemento.  
+
+![BEM-use-explanation](img/readme/bem-methodology/BEM-use-explanation.png "BEM Use Explanation") 
 
 ### API - [Fake Store API](https://fakestoreapi.com/)
 [![Fake-Store-API-Home-Page](img/screenshots/FakeStoreAPI-HomePage.png "Fake Store API Home Page")](https://fakestoreapi.com/)
