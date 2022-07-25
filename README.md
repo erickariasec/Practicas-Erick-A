@@ -59,6 +59,7 @@ A continuación algunas características importantes:
   - Se utiliza principalmente en el lado del cliente (navegador) para enviar datos a un servidor especificado con el fin de crear o reescribir un recurso/datos en particular. Estos datos enviados al servidor se almacenan en el cuerpo de la solicitud de la solicitud HTTP. El método de publicación eventualmente conduce a la creación de un nuevo recurso o a la actualización de uno existente. Debido a este uso dinámico, es uno de los métodos HTTP más utilizados. No es uno de los métodos más seguros porque los datos que se envían se incluyen en el cuerpo de la solicitud y no en la URL. La solicitud posterior es mejor para los datos que deben estar seguros (es decir, los datos que contienen imágenes o documentos).  
   
 ### Metodologías CSS: BEM (Bloque, Elemento Modificador)  
+![BEM-naming-convention](img/readme/bem-methodology/BEM-naming-conventions.png "BEM Naming Convention")
 
 - #### Bloque:
   - Son nuestros contenedores más grandes que a su vez contienen elementos u otros bloques.
