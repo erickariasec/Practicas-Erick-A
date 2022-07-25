@@ -80,7 +80,7 @@ A continuación algunas características importantes:
   ```
 
 ### API - [Fake Store API](https://fakestoreapi.com/)
-[![Fake-Store-API-Home-Page](img/screenshots/FakeStoreAPI-HomePage.png "Fake Store API Home Page")](https://fakestoreapi.com/)
+[![Fake-Store-API-Home-Page](img/readme/screenshots/API/FakeStoreAPI-HomePage.png "Fake Store API Home Page")](https://fakestoreapi.com/)
 
 ### GIT
 - Branch
