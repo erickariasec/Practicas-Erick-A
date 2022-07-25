@@ -39,7 +39,7 @@ Una API web o API de servicio web es un conjunto de herramientas que permite a l
 - ` 403 Forbidden ` El cliente no posee los permisos necesarios para cierto contenido, por lo que el servidor está rechazando otorgar una respuesta apropiada.
 - ` 404 Not Found ` El servidor no pudo encontrar el contenido solicitado. Este código de respuesta es uno de los más famosos dada su alta ocurrencia en la web. 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Node.js_logo_2015.svg" alt="logo nodejs" width=200px>
+<img src="img/readme/nodejs.svg" alt="logo nodejs" width=200px>
 Node.js es una biblioteca y un entorno de tiempo de ejecución JavaScript multiplataforma de código abierto para ejecutar aplicaciones web fuera del navegador del cliente. Los desarrolladores usan Node.js para crear aplicaciones web del lado del servidor y es perfecto para aplicaciones con uso intensivo de datos, ya que usa un evento asíncrono.
 
 A continuación algunas características importantes:
