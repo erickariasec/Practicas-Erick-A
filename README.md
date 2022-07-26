@@ -93,9 +93,9 @@ fakeStoreApi se puede usar con cualquier tipo de proyecto de compras que necesit
             .then(res=>res.json())
             .then(json=>console.log(json))  
     ```
-- #### OBTENER TODOS LOS PRODUCTOS
+- #### OBTENER UN SOLO PRODUCTO
   - ```js
-    fetch('https://fakestoreapi.com/products')
+    fetch('https://fakestoreapi.com/products/1')
             .then(res=>res.json())
             .then(json=>console.log(json))  
     ```
