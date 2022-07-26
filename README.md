@@ -93,18 +93,21 @@ fakeStoreApi se puede usar con cualquier tipo de proyecto de compras que necesit
             .then(res=>res.json())
             .then(json=>console.log(json))  
     ```
+    
 - #### OBTENER UN SOLO PRODUCTO
   - ```js
     fetch('https://fakestoreapi.com/products/1')
             .then(res=>res.json())
             .then(json=>console.log(json))  
     ```
+    
 - #### LIMITAR RESULTADOS
   - ```js
     fetch('https://fakestoreapi.com/products?limit=5')
             .then(res=>res.json())
             .then(json=>console.log(json)) 
     ```
+    
 - #### ORDENAR RESULTADOS (MODO DESCENDENTE)
   - ```js
     fetch('https://fakestoreapi.com/products?sort=desc')
@@ -112,9 +115,17 @@ fakeStoreApi se puede usar con cualquier tipo de proyecto de compras que necesit
             .then(json=>console.log(json))
     ```
      El valor predeterminado está en modo ascendente, puede usarlo con 'desc' o 'asc' como desee.
+     
 - #### OBTENER TODAS LAS CATEGORÍAS
   - ```js
-    fetch('https://fakestoreapi.com/products?sort=desc')
+    fetch('https://fakestoreapi.com/products/categories')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+    ```
+    
+- #### OBTENER PRODUCTOS EN UNA CATEGORÍA ESPECÍFICA
+  - ```js
+    fetch('https://fakestoreapi.com/products/category/jewelery')
             .then(res=>res.json())
             .then(json=>console.log(json))
     ```
