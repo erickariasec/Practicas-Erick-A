@@ -63,7 +63,7 @@ body {
     max-width: 1100px;
     height: 75px;
     padding: 10px 30px;
-    border-bottom: 1px solid var(--separator-color);
+
     background-color: var(--logo-content-background-color);
     display: flex;
     justify-content: space-between;
@@ -83,6 +83,14 @@ body {
 
 .nav-bar .bars-button i {
     font-size: 3rem;
+}
+
+.separator {
+    position: sticky;
+    top: 75px;
+    border-bottom: 1px solid var(--separator-color);
+    width: 100%;
+    z-index: 999;
 }
 
 .gallery {
