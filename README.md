@@ -87,7 +87,7 @@ Las metodologías CSS son sistemas preestablecidos, formales y bien documentados
 #### ¿Cómo usar Fake Store API?
 fakeStoreApi se puede usar con cualquier tipo de proyecto de compras que necesite productos, carritos y usuarios en formato JSON.  
 
-<!-- - #### OBTENER TODOS LOS PRODUCTOS
+- #### OBTENER TODOS LOS PRODUCTOS
   - ```js
     fetch('https://fakestoreapi.com/products')
             .then(res=>res.json())
@@ -98,7 +98,7 @@ fakeStoreApi se puede usar con cualquier tipo de proyecto de compras que necesit
     fetch('https://fakestoreapi.com/products')
             .then(res=>res.json())
             .then(json=>console.log(json))  
-    ``` -->
+    ```
 
 ### GIT
 - Branch
