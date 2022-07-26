@@ -105,6 +105,13 @@ fakeStoreApi se puede usar con cualquier tipo de proyecto de compras que necesit
             .then(res=>res.json())
             .then(json=>console.log(json)) 
     ```
+- #### ORDENAR RESULTADOS (MODO DESCENDENTE)
+  - ```js
+    fetch('https://fakestoreapi.com/products?sort=desc')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+    ```
+     El valor predeterminado está en modo ascendente, puede usarlo con 'desc' o 'asc' como desee.
 
 ### GIT
 - Branch
