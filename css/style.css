@@ -56,21 +56,22 @@ body {
     align-items: center;
 }
 
-.logo-content {
+.nav-bar {
     position: sticky;
     top: 0;
-    width: 100%;
+    width: 95vw;
+    max-width: 1100px;
     height: 75px;
-    padding: 10px;
+    padding: 10px 30px;
     border-bottom: 1px solid var(--separator-color);
     background-color: var(--logo-content-background-color);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     z-index: 999;
 }
 
-.logo-content .logo-rame {
+.nav-bar .logo-rame {
     height: 100%;
 }
 
