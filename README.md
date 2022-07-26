@@ -99,6 +99,12 @@ fakeStoreApi se puede usar con cualquier tipo de proyecto de compras que necesit
             .then(res=>res.json())
             .then(json=>console.log(json))  
     ```
+- #### LIMITAR RESULTADOS
+  - ```js
+    fetch('https://fakestoreapi.com/products?limit=5')
+            .then(res=>res.json())
+            .then(json=>console.log(json)) 
+    ```
 
 ### GIT
 - Branch
