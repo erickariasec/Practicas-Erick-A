@@ -25,7 +25,7 @@ async function asyncGetAllProducts() {
                             <p>Camiseta manga corta texto</p>
                         </div>
                         <div class="price">
-                            <h3>$25.99</h3>
+                            <h3>$${i.price}</h3>
                         </div>
                     </section>
                 </article>
