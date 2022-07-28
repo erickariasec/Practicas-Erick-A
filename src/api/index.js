@@ -35,7 +35,14 @@ async function asyncGetAllProducts() {
 
         contentAPP.innerHTML = view;
 
-        // // ! GET A SINGLE PRODUCT
+    } catch (err) {
+        console.error(err);
+    }
+}
+
+asyncGetAllProducts();
+
+// // ! GET A SINGLE PRODUCT
         // const product1 = await fetchProducts(`${API_products}/1`);
         // console.log(product1);
         
@@ -55,10 +62,3 @@ async function asyncGetAllProducts() {
         // // ! GET PRODUCTS IN A SPECIFIC CATEGORY (electronics, jewelry, men\'s clothing, women's clothing)
         // const productsSpecificCategory = await fetchProducts(`${API_products}/category/jewelery`);
         // console.log(productsSpecificCategory);
-
-    } catch (err) {
-        console.error(err);
-    }
-}
-
-asyncGetAllProducts();
