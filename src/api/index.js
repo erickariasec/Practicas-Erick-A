@@ -21,7 +21,7 @@ async function asyncGetAllProducts() {
                         <img src="${i.image}" alt="product-1">
                     </section>
                         <section class="product-content">
-                        <div class="description">
+                        <div class="title">
                             <p>${i.title}</p>
                         </div>
                         <div class="price">

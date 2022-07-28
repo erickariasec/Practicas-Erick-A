@@ -164,7 +164,7 @@ body {
     gap: 10px;
 }
 
-.main .cards article .product-content .description p {
+.main .cards article .product-content .title p {
     font-size: 1.6rem;
     font-weight: 500;
 }
