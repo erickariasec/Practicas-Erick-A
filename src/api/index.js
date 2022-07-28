@@ -22,7 +22,7 @@ async function asyncGetAllProducts() {
                     </section>
                         <section class="product-content">
                         <div class="description">
-                            <p>Camiseta manga corta texto</p>
+                            <p>${i.title}</p>
                         </div>
                         <div class="price">
                             <h3>$${i.price}</h3>
