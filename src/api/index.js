@@ -6,7 +6,7 @@ const fetchProducts = async (urlAPI) => {
     return response.json();
 }
 
-// Format numbers as currency strings
+// Format numbers as currency strings (USD)
 let formatter = new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "USD",
