@@ -74,7 +74,7 @@ async function asyncGetCategoryElectronics() {
 }
 
 // ! GET PRODUCTS BY CATEGORY: JEWELERY
-async function asyncGetCategoryElectronics() {
+async function asyncGetCategoryJewelery() {
     try {
         const jewelery = await fetchProducts(`${API_products}/category/jewelery`);
         const contentAPP = document.getElementById('contentAPP');
@@ -106,7 +106,7 @@ async function asyncGetCategoryElectronics() {
 }
 
 // ! GET PRODUCTS BY CATEGORY: MEN'S CLOTHING
-async function asyncGetCategoryElectronics() {
+async function asyncGetCategoryMenClothes() {
     try {
         const menClothes = await fetchProducts(`${API_products}/category/men's clothing`);
         const contentAPP = document.getElementById('contentAPP');
@@ -138,7 +138,7 @@ async function asyncGetCategoryElectronics() {
 }
 
 // ! GET PRODUCTS BY CATEGORY: MEN'S CLOTHING
-async function asyncGetCategoryElectronics() {
+async function asyncGetCategoryWomenClothes() {
     try {
         const womenClothes = await fetchProducts(`${API_products}/category/women's clothing`);
         const contentAPP = document.getElementById('contentAPP');
