@@ -6,6 +6,12 @@ const fetchProducts = async (urlAPI) => {
     return response.json();
 }
 
+// Format numbers as currency strings
+let formatter = new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+});
+
 // ! GET ALL PRODUCTS
 async function asyncGetAllProducts() {
     try {
@@ -23,7 +29,7 @@ async function asyncGetAllProducts() {
                             <p>${i.title}</p>
                         </div>
                         <div class="price">
-                            <h3>$${i.price}</h3>
+                            <h3>${formatter.format(`${i.price}`)}</h3>
                         </div>
                     </section>
                 </article>
@@ -58,7 +64,7 @@ async function asyncGetCategoryElectronics() {
                             <p>${i.title}</p>
                         </div>
                         <div class="price">
-                            <h3>$${i.price}</h3>
+                            <h3>${formatter.format(`${i.price}`)}</h3>
                         </div>
                     </section>
                 </article>
@@ -90,7 +96,7 @@ async function asyncGetCategoryJewelery() {
                             <p>${i.title}</p>
                         </div>
                         <div class="price">
-                            <h3>$${i.price}</h3>
+                            <h3>${formatter.format(`${i.price}`)}</h3>
                         </div>
                     </section>
                 </article>
@@ -122,7 +128,7 @@ async function asyncGetCategoryMenClothes() {
                             <p>${i.title}</p>
                         </div>
                         <div class="price">
-                            <h3>$${i.price}</h3>
+                            <h3>${formatter.format(`${i.price}`)}</h3>
                         </div>
                     </section>
                 </article>
@@ -154,7 +160,7 @@ async function asyncGetCategoryWomenClothes() {
                             <p>${i.title}</p>
                         </div>
                         <div class="price">
-                            <h3>$${i.price}</h3>
+                            <h3>${formatter.format(`${i.price}`)}</h3>
                         </div>
                     </section>
                 </article>
