@@ -6,10 +6,9 @@ const fetchProducts = async (urlAPI) => {
     return response.json();
 }
 
+// ! GET ALL PRODUCTS
 async function asyncGetAllProducts() {
     try {
-
-        // ! GET ALL PRODUCTS
         const products = await fetchProducts(`${API_products}`);
         const contentAPP = document.getElementById('contentAPP');
         let view = `
@@ -40,6 +39,38 @@ async function asyncGetAllProducts() {
 }
 
 asyncGetAllProducts();
+
+// ! GET PRODUCTS BY CATEGORY: ELECTRONICS
+async function asyncGetCategoryElectronics() {
+    try {
+        const electronics = await fetchProducts(`${API_products}/category/electronics`);
+        const contentAPP = document.getElementById('contentAPP');
+        let view = `
+            ${electronics.map((i) =>
+                `
+                <article class="card-1">
+                    <section class="product-image">
+                        <img src="${i.image}" alt="product-1">
+                    </section>
+                        <section class="product-content">
+                        <div class="title">
+                            <p>${i.title}</p>
+                        </div>
+                        <div class="price">
+                            <h3>$${i.price}</h3>
+                        </div>
+                    </section>
+                </article>
+                `
+            ).join('')}  
+        `;
+
+        contentAPP.innerHTML = view;
+
+    } catch (err) {
+        console.error(err);
+    }
+}
 
 // // ! GET A SINGLE PRODUCT
         // const product1 = await fetchProducts(`${API_products}/1`);
