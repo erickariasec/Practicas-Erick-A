@@ -4,6 +4,7 @@
     /* Text colors */
     --white-color-text: #fff;
     --black-color-text: #000;
+    --black-hover-color-text: #777;
 
     /* Background colors */
     --promo-header-background-color: #000;
@@ -80,7 +81,7 @@ body {
     align-items: center;
 }
 
-.nav-bar {
+.navbar {
     position: sticky;
     top: 0;
     width: 95vw;
@@ -95,19 +96,39 @@ body {
     z-index: 999;
 }
 
-.nav-bar .logo-rame {
+.navbar .logo-rame {
     height: 100%;
 }
 
-.nav-bar .bars-button {
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a {
+    display: block;
+    color: var(--black-color-text);
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 2.5rem;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover {
+    color: var(--black-hover-color-text);
+}
+.navbar.sticky .menu li a:hover {
+    color: #fff;
+}
+
+/* .navbar .bars-button {
     height: 100%;
     background-color: transparent;
     border: none;
 }
 
-.nav-bar .bars-button i {
+.navbar .bars-button i {
     font-size: 3rem;
-}
+} */
 
 .separator {
     position: sticky;
