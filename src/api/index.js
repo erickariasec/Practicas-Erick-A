@@ -11,7 +11,6 @@ async function asyncGetAllProducts() {
 
         // ! GET ALL PRODUCTS
         const products = await fetchProducts(`${API_products}`);
-        console.log(products);
         const contentAPP = document.getElementById('contentAPP');
         let view = `
             ${products.map((i) =>
