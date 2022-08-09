@@ -105,7 +105,37 @@ async function asyncGetCategoryElectronics() {
     }
 }
 
+// ! GET PRODUCTS BY CATEGORY: MEN'S CLOTHING
+async function asyncGetCategoryElectronics() {
+    try {
+        const menClothes = await fetchProducts(`${API_products}/category/men's clothing`);
+        const contentAPP = document.getElementById('contentAPP');
+        let view = `
+            ${menClothes.map((i) =>
+                `
+                <article class="card-1">
+                    <section class="product-image">
+                        <img src="${i.image}" alt="product-1">
+                    </section>
+                        <section class="product-content">
+                        <div class="title">
+                            <p>${i.title}</p>
+                        </div>
+                        <div class="price">
+                            <h3>$${i.price}</h3>
+                        </div>
+                    </section>
+                </article>
+                `
+            ).join('')}  
+        `;
 
+        contentAPP.innerHTML = view;
+
+    } catch (err) {
+        console.error(err);
+    }
+}
 
 // // ! GET A SINGLE PRODUCT
         // const product1 = await fetchProducts(`${API_products}/1`);
