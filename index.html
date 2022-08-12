@@ -7,12 +7,14 @@
     <meta name="description" content="Buy exclusive brand products in our online store Ramé">
     <link rel="shortcut icon" href="img/logos/favicon-rame-blanco.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" media="(min-width: 1921px)" href="css/ultrawide.css"> -->
     <!-- <link rel="stylesheet" media="(min-width: 1300px) and (max-width: 1920px)" href="css/desktop-1300-1920px.css"> -->
-    <!-- <link rel="stylesheet" media="(max-width: 847px)" href="css/tablet-847px.css"> -->
+    <link rel="stylesheet" media="(max-width: 847px)" href="css/tablet-847px.css">
     <!-- <link rel="stylesheet" media="(max-width: 447px)" href="css/mobile-447px.css"> -->
     <script src="src/api/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>RAMÉ</title>
 </head>
 
@@ -25,15 +27,19 @@
         </div>
     </section>
     <header class="navbar">
-        <img class="logo-rame" src="img/logos/rame-logo-black.svg" alt="Logo RAMÉ">
-        <ul class="menu">
-            <li><a onclick="asyncGetAllProducts()" href="#" class="menu-btn" aria-label="Go to Ramé home page" role="link">Home</a></li>
-            <li><a onclick="asyncGetCategoryMenClothes()" href="#" class="menu-btn" aria-label="Go to Ramé men's clothing page" role="link">Men</a></li>
-            <li><a onclick="asyncGetCategoryWomenClothes()" href="#" class="menu-btn" aria-label="Go to Ramé women's clothing page" role="link">Women</a></li>
-            <li><a onclick="asyncGetCategoryJewelery()" href="#" class="menu-btn" aria-label="Go to Ramé jewelery page" role="link">Jewelery</a></li>
-            <li><a onclick="asyncGetCategoryElectronics()" href="#" class="menu-btn" aria-label="Go to Ramé electronics page" role="link">Electronics</a></li>
-        </ul>
-        <!-- <button class="bars-button"><i class="fa-solid fa-bars"></i></button> -->
+        <div class="max-width">
+            <img class="logo-rame" src="img/logos/rame-logo-black.svg" alt="Logo RAMÉ">
+            <ul class="menu">
+                <li><a onclick="asyncGetAllProducts()" href="#" class="menu-btn" aria-label="Go to Ramé home page" role="link">Home</a></li>
+                <li><a onclick="asyncGetCategoryMenClothes()" href="#" class="menu-btn" aria-label="Go to Ramé men's clothing page" role="link">Men</a></li>
+                <li><a onclick="asyncGetCategoryWomenClothes()" href="#" class="menu-btn" aria-label="Go to Ramé women's clothing page" role="link">Women</a></li>
+                <li><a onclick="asyncGetCategoryJewelery()" href="#" class="menu-btn" aria-label="Go to Ramé jewelery page" role="link">Jewelery</a></li>
+                <li><a onclick="asyncGetCategoryElectronics()" href="#" class="menu-btn" aria-label="Go to Ramé electronics page" role="link">Electronics</a></li>
+            </ul>
+            <div class="menu-btn" aria-label="Press here to see menu button" role="button">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </header>
 
     <div class="separator"></div>
@@ -59,5 +65,82 @@
 
     </footer>
     <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if (this.scrollY > 20){
+                    $('.navbar').addClass("sticky");
+                } else {
+                    $('.navbar').removeClass("sticky");
+                }
+                if (this.scrollY > 500) {
+                    $('.scroll-up-btn').addClass("show");
+                } else {
+                    $('.scroll-up-btn').removeClass("show");
+                }
+            });
+
+            // slide-up script
+            $('.scroll-up-btn').click(function() {
+            $('html').animate({scrollTop: 0});
+            });
+
+            // toggle menu/navbar script
+            $('.menu-btn').click(function(){
+                $('.navbar .menu').toggleClass("active");
+                $(".menu-btn i").toggleClass("active");
+            });
+
+            // typing animation script
+            var typed = new Typed(".typing-2", {
+                strings: ["Developer", "Freelancer", "Designer"],
+                typeSpeed: 100,
+                backSpeed: 60,
+                loop: true,
+            });
+
+            var typed = new Typed(".typing", {
+                strings: ["Developer", "Freelancer", "Designer"],
+                typeSpeed: 100,
+                backSpeed: 60,
+                loop: true,
+            });
+
+            // owl carousel script
+            $('.carousel').owlCarousel({
+                margin: 20,
+                loop: true,
+                autoplayTimeOut: 2000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    600: {
+                        items: 2,
+                        nav: false
+                    },
+                    1000: {
+                        items: 3,
+                        nav: false
+                    }
+                }
+            });
+
+            // send email
+            // function sendEmail(){
+            //     Email.send({
+            //         Host: "smtp.yourisp.com",
+            //         Username: "username",
+            //         Password: "password",
+            //         To: "them@website.com",
+            //         From: "you@isp.com",
+            //         Subject: "This is the subject",
+            //         Body: "And this is the body",
+            //     }).then((message) => alert("mail sent successfully"));
+            // }
+        });
+    </script>
 </body>
 </html>
