@@ -130,6 +130,27 @@ fakeStoreApi se puede usar con cualquier tipo de proyecto de compras que necesit
             .then(json=>console.log(json))
     ```
 
+### Dar formato a números como cadenas de moneda (USD) `Intl.NumberFormat`
+JavaScript tiene un formateador de números (parte de la internacionalización de APIs).  
+
+```js
+// Crear nuestro formateador de números.
+var formatter = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD',
+
+  // Estas opciones son necesarias para redondear a números enteros si eso es lo que desea.
+  // minimumFractionDigits: 0, // (esto basta para números enteros, pero imprimirá 2500,10 como $2500,1)
+  // maximumFractionDigits: 0, // (hace que 2500,99 se imprima como $2501)
+});
+
+formatter.format(2500); /* $2,500.00 */
+```  
+
+Se debe usar `undefined` en lugar del primer argumento (`'en-US'` en el ejemplo) para usar la configuración regional del sistema (la configuración regional del usuario en caso de que el código se ejecute en un navegador).  
+
+Aquí hay una [lista de los códigos de moneda de cada país](https://www.iban.com/currency-codes).
+
 ### GIT
 - Branch
 - remote
