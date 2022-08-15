@@ -130,7 +130,8 @@ fakeStoreApi se puede usar con cualquier tipo de proyecto de compras que necesit
             .then(json=>console.log(json))
     ```
 
-### Dar formato a números como cadenas de moneda (USD) `Intl.NumberFormat`
+### Conversor de números a cadenas de moneda (USD) `Intl.NumberFormat`
+
 JavaScript tiene un formateador de números (parte de la internacionalización de APIs).  
 
 ```js
