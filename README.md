@@ -153,7 +153,9 @@ Se debe usar `undefined` en lugar del primer argumento (`'en-US'` en el ejemplo)
 Aquí hay una [lista de los códigos de moneda de cada país](https://www.iban.com/currency-codes).  
 
 ### Biblioteca para el Slider: [Flickity](https://flickity.metafizzy.co/)  
-Flickity es una biblioteca de controles deslizantes de JavaScript, creada por David DeSandro de Metafizzy. Está optimizado para gestos táctiles, rendimiento e incluye cosas como animación basada en la física. 
+Flickity es una biblioteca de controles deslizantes de JavaScript, creada por David DeSandro de Metafizzy. Está optimizado para gestos táctiles, rendimiento e incluye cosas como animación basada en la física.   
+
+![Flickity-Home-Page](img/readme/screenshots/Flickity/Flickity-Home-Page.png "Flickity Home Page")  
 
 #### ¿Cómo se usa Flickity?
 Para usar Flickity, primero agregue su archivo .css y .js a su página. Flickity funciona en un carrusel contenedor o elemento de galería con un grupo de elementos de celda.
