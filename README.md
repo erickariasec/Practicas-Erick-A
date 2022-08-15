@@ -158,7 +158,13 @@ Flickity es una biblioteca de controles deslizantes de JavaScript, creada por Da
 ![Flickity-Home-Page](img/readme/screenshots/Flickity/Flickity-Home-Page.png "Flickity Home Page")  
 
 #### ¿Cómo se usa Flickity?
-Para usar Flickity, primero agregue su archivo .css y .js a su página. Flickity funciona en un carrusel contenedor o elemento de galería con un grupo de elementos de celda.
+Para usar Flickity, primero agregue su archivo .css y .js a su página. Flickity funciona en un carrusel contenedor o elemento de galería con un grupo de elementos de celda.  
+
+![Flickity-How-To-Use](img/readme/screenshots/Flickity/Flickity-HowToUse.png "Flickity How to Use")  
+
+#### Implementación de Flickity en el Proyecto
+
+![Flickity-How-To-Use](img/readme/screenshots/Flickity/Flickity-RAMÉ.png "Flickity How to Use")  
 
 ### GIT
 - Branch
