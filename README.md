@@ -150,7 +150,13 @@ formatter.format(2500); /* $2,500.00 */
 
 Se debe usar `undefined` en lugar del primer argumento (`'en-US'` en el ejemplo) para usar la configuración regional del sistema (la configuración regional del usuario en caso de que el código se ejecute en un navegador).  
 
-Aquí hay una [lista de los códigos de moneda de cada país](https://www.iban.com/currency-codes).
+Aquí hay una [lista de los códigos de moneda de cada país](https://www.iban.com/currency-codes).  
+
+### Biblioteca para el Slider: [Flickity](https://flickity.metafizzy.co/)  
+Flickity es una biblioteca de controles deslizantes de JavaScript, creada por David DeSandro de Metafizzy. Está optimizado para gestos táctiles, rendimiento e incluye cosas como animación basada en la física. 
+
+#### ¿Cómo se usa Flickity?
+Para usar Flickity, primero agregue su archivo .css y .js a su página. Flickity funciona en un carrusel contenedor o elemento de galería con un grupo de elementos de celda.
 
 ### GIT
 - Branch
