@@ -11,12 +11,8 @@
     gap: 20px;
 } */
 
-.navbar {
-    padding: 10px 0;
-}
-
 .max-width {
-    padding: 0 50px;
+    padding: 0 1rem;
 }
 .menu-btn {
     display: block;
