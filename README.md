@@ -22,7 +22,7 @@
 | Consumo API | Prac | semana 6 | JavaScript | Completo |
 | Estructura API | Prac | semana 7 | JavaScript | Completo |
 | Despleguie de Aplicacion | Prac | semana 8 | GitHub | Completo |
-</dv>
+</div>
 
 ## Investigación
 
