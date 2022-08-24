@@ -23,7 +23,7 @@
 | Estructura API | Prac | semana 7 | JavaScript | Completo |
 | Despleguie de Aplicacion | Prac | semana 8 | GitHub | Completo |
 
-<center>
+</center>
 
 ## Investigación
 
