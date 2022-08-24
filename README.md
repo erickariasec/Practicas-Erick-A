@@ -8,9 +8,9 @@
   <img src="img/readme/tools/postman-logo.png" alt="logo postman" width=150px>
 </p>
 
-<center>
+<div align="center">
 
-#### Control de practicas preprofesionales
+#### Control de Prácticas Preprofesionales
 
 | Actidad | Tipo | Semana | Contenido | Estado |
 | --- | --- | --- | --- | --- |
@@ -22,8 +22,7 @@
 | Consumo API | Prac | semana 6 | JavaScript | Completo |
 | Estructura API | Prac | semana 7 | JavaScript | Completo |
 | Despleguie de Aplicacion | Prac | semana 8 | GitHub | Completo |
-
-</center>
+</dv>
 
 ## Investigación
 
