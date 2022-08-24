@@ -8,6 +8,7 @@
   <img src="img/readme/tools/postman-logo.png" alt="logo postman" width=150px>
 </p>
 
+<center>
 
 #### Control de practicas preprofesionales
 
@@ -17,10 +18,12 @@
 | Maquetado | Prac | semana 2 | HTML | Completo |
 | Diseño | Prac | semana 3 | CSS | Completo |
 | Diseño | Prac | semana 4 | CSS, Responsive | Completo |
-| Analisis API | Prac | semana 5 | JavaScript | Incompleto |
-| Consumo API | Prac | semana 6 | JavaScript | Incompleto |
-| Estructura API | Prac | semana 7 | JavaScript | Incompleto |
-| Despleguie de Aplicacion | Prac | semana 8 | GitHub | Incompleto |
+| Analisis API | Prac | semana 5 | JavaScript | Completo |
+| Consumo API | Prac | semana 6 | JavaScript | Completo |
+| Estructura API | Prac | semana 7 | JavaScript | Completo |
+| Despleguie de Aplicacion | Prac | semana 8 | GitHub | Completo |
+
+<center>
 
 ## Investigación
 
